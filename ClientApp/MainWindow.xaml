@@ -8,7 +8,7 @@
 
             <Button Content="Send IMAGE" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="30" Background="SlateBlue" Foreground="White" Click="SendImageButton_Click"/>
 
-            <ListBox x:Name="imageListBox" Height="300" Width="400" Margin="0,20,0,0">
+            <ListBox x:Name="imageListBox" Height="280" Width="400" Margin="0,20,0,0">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <Image Source="{Binding}" Stretch="Uniform" />
